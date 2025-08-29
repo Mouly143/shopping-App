@@ -27,16 +27,26 @@ Database: SQLite (default) / PostgreSQL (optional)
 Management: Django Admin
 
 Installation
+
 1.Clone the repository
+
 git clone <your-repo-link>
 cd shopping-app
+
 2.Create a virtual environment
+
 python -m venv env
 source env/bin/activate   # On Windows: env\Scripts\activate
+
 3.Install dependencies
+
 pip install -r requirements.txt
+
 4.Apply migrations
+
 python manage.py migrate
+
 5.Run the development server
+
 python manage.py runserver
 
